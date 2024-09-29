@@ -18,7 +18,7 @@ Hey there! Welcome to the Stroke Prediction Project. This project aims to predic
 3. **Exploratory Data Analysis**:
    - We create age groups to check out how strokes vary across different age ranges.
    - A bar graph visualizes the number of strokes by age group.  
-   !(<img width="997" alt="age_graph" src="https://github.com/user-attachments/assets/680d1914-9ef1-4c6c-b275-44bb1df19514">
+   <img width="997" alt="age_graph" src="https://github.com/user-attachments/assets/680d1914-9ef1-4c6c-b275-44bb1df19514">
 )
 <img width="997" alt="Screenshot 2024-09-28 at 9 01 22 PM" src="https://github.com/user-attachments/assets/fa17a5ca-6415-41e9-9d91-ca51c82dcfec">
 
