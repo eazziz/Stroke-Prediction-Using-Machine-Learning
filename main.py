@@ -1,23 +1,21 @@
+import pandas as pd
 from preprocessing import preprocess_data
 from model import train_models, predict_stroke
-from visualize import plot_age_group, plot_accuracy
+from visualize import plot_stroke_occurrences, plot_model_accuracy
 
-def main():
-    # Preprocess the data
-    X_train, X_test, Y_train, Y_test, scaler = preprocess_data()
+# Load the dataset
+df = pd.read_csv('./healthcare-dataset-stroke-data.csv')
 
-    # Train models and get predictions
-    log_reg, knn, Y_pred_log_reg, Y_pred_knn = train_models(X_train, Y_train, X_test)
+# Preprocess the data
+X, Y, scaler, df = preprocess_data(df)
 
-    # Evaluate models
-    evaluate_models(Y_test, Y_pred_log_reg, Y_pred_knn)
+# Train models and get predictions
+log_reg, knn, Y_pred_log_reg, Y_pred_knn = train_models(X, Y)
 
-    # Plot visualizations
-    plot_age_group()
-    plot_accuracy()
+# Plot results
+plot_stroke_occurrences(df)
+plot_model_accuracy(Y, Y_pred_log_reg, Y_pred_knn)
 
-    # Predict user input
-    predict_stroke(log_reg, knn, scaler)
+# Ask for user input and predict
+predict_stroke(log_reg, knn, scaler)
 
-if __name__ == "__main__":
-    main()
