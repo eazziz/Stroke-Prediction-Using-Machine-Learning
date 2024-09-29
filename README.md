@@ -37,7 +37,8 @@ Hey there! Welcome to the Stroke Prediction Project. This project aims to predic
 8. **Model Evaluation**:
    - We calculate and display metrics like accuracy, precision, recall, and F2-score for both models.
    - A bar graph compares the accuracy of the models.  
-   ![Model Accuracy Comparison](path/to/your/model_accuracy_graph.png)
+   <img width="695" alt="Screenshot 2024-09-28 at 9 03 28 PM" src="https://github.com/user-attachments/assets/0c4a9a1c-2ad6-467a-a986-f7232552d79a">
+
 
 9. **User Input for Prediction**:
    - There’s a function that asks users to input their health and lifestyle details to predict their likelihood of having a stroke.
