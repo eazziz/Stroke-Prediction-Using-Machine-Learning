@@ -4,6 +4,9 @@
 
 Hey there! Welcome to the Stroke Prediction Project. This project aims to predict the likelihood of a stroke based on various health and lifestyle factors. We’re using a dataset packed with info about individuals, and we’ll employ some cool machine learning techniques to make our predictions.
 
+![image](https://github.com/user-attachments/assets/0274e398-2e57-4a14-b922-7e7a9e6b4639)
+
+
 ## Project Flow
 
 1. **Data Loading**:
