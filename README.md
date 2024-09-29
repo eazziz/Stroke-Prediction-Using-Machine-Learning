@@ -19,8 +19,6 @@ Hey there! Welcome to the Stroke Prediction Project. This project aims to predic
    - We create age groups to check out how strokes vary across different age ranges.
    - A bar graph visualizes the number of strokes by age group.  
    <img width="997" alt="age_graph" src="https://github.com/user-attachments/assets/680d1914-9ef1-4c6c-b275-44bb1df19514">
-)
-<img width="997" alt="Screenshot 2024-09-28 at 9 01 22 PM" src="https://github.com/user-attachments/assets/fa17a5ca-6415-41e9-9d91-ca51c82dcfec">
 
 4. **Normalization**:
    - We normalize numerical features (`age`, `hypertension`, `heart_disease`, `avg_glucose_level`, and `bmi`) using `StandardScaler`, ensuring that all features are on the same scale.
